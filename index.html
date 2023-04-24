@@ -12,7 +12,10 @@
 
 
 </head>
-<body>
+
+
+
+<body style="background-color:#dfe7ee;">
 
   <header>
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
@@ -41,20 +44,8 @@
             <li class="nav-item">
               <a class="nav-link" href="#">ABOUT US</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
+            
+            
           </ul>
          
         </div>
@@ -63,6 +54,8 @@
 
   </header>
  <main>
+  <!--<div class="bbg-#414F5D">-->
+
   <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -90,53 +83,66 @@
     <p class="lead text-center">Clothes for the people, made by the people.</p>
 </div>
 
-  <div class="container fluid text-center">
+
+  <div class="container fluid justify-content-center text-center">
     <h1> Menu of Services</h1>
     <div class="col-5 col-lg-5"> 
     <img src="images/MENU OF SERVICES-01.png" class="img-fluid rounded"> 
     <P> Prepare for our upcoming Spring/Summer Season, these won't fail to please.</P>
   </div>
 
-    <section class="row text-center">
+
+    <section class="row text-center justify-content-center">
       <h1> Our upcoming releases!</h1>
     <div class="col-4"> 
-    <img src="images/tshirt.png" class="img-fluid rounded">
+    <img src="images/tshirt.png" class="img-fluid rounded" align="center" >
   </div>
     <div class="col-4"> 
-    <img src="images/tshirt brown green background.png" class="img-fluid rounded">
+    <img src="images/tshirt brown green background.png" class="img-fluid rounded"align="center">
   </div>
   <div class="col-4"> 
-  <img src="images/tshirtred.png" class="img-fluid rounded">
+  <img src="images/tshirtred.png" class="img-fluid rounded"align="center">
 </div>
   </section>
-
+  
   <div class="container-fluid">
     <h1 class="display-1 text-center">Timetable</h1>
-    <p class="lead text-center">Whats going on over the next few weeks, look below to subscribe to our news letter.</p>
+    <p class="lead text-center">Whats going on over the next few weeks, please subscribe to our news letter to say-up-to-date.</p>
+    <div class="col-12">
+    <img src="images/TIMETABLE-01-01.png" class="img-fluid rounded" align="center" >
+  </div>
 </div>
+
+
 
 <form class="row g-3">
   <div class="col-md-12">
     <label for="inputEmail4" class="form-label">Email</label>
-    <input type="email" class="form-control" id="inputEmail4">
+    <input type="email" class="form-control" id="inputEmail4" placeholder="johndoe@gmail.com">
   </div>
   <div class="col-12">
     <label for="inputAddress" class="form-label">Address</label>
     <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
   </div>
   <div class="col-12">
-    <label for="inputAddress2" class="form-label">Address 2</label>
+    <label for="inputAddress2" class="form-label">Address line 2 (Optional)</label>
     <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
   </div>
   <div class="col-md-6">
     <label for="inputCity" class="form-label">City/Town</label>
-    <input type="text" class="form-control" id="inputCity">
+    <input type="text" class="form-control" id="inputCity" placeholder="London, Bristol, Manchester">
   </div>
-  <div class="col-md-4">
-    <label for="inputState" class="form-label">County/Region</label>
+  <div class="col-md-6">
+    <label for="inputState" class="form-label">Region</label>
     <select id="inputState" class="form-select">
       <option selected>Choose...</option>
-      <option>...</option>
+      <option>Bristol/SouthWest</option>
+      <option>West Midlands</option>
+      <option>East Midlands</option>
+      <option>East England</option>
+      <option>South East</option>
+      <option>North East</option>
+      <option>North West</option>
     </select>
   </div>
   
@@ -153,6 +159,7 @@
   </div>
 </form>
 
+
 <div class="container-fluid">
   <h1 class="display-1 text-center">Submit your designs</h1>
   <p class="lead text-center">The power is in your hands, the sky's the limit.</p>
@@ -161,11 +168,12 @@
 <div class="mb-3">
   <label for="formFileMultiple" class="form-label">Attach Artworks Below</label>
   <input class="form-control" type="file" id="formFileMultiple" multiple>
+  <p class="lead text-center">Here is where you can submit your designs, we periodically will select 10 designs to headline our limited-time collections, and the winners will win their respective t-shirt designs alongside 3 tickets to our upcoming performances with local DJ’s.  </p>
 </div>
 
 <div class="container-fluid">
-  <h1 class="display-1 text-center">Abous us</h1>
-  <p class="lead text-center">Loud Prints was founded and based in Bristol.</p>
+  <h1 class="display-1 text-center">About us</h1>
+  <p class="lead text-center">Loud Prints was founded and based in Bristol by a group of university friends who are passionate about streetwear, being content with current fashion trends but not overly excited. One day the group started painting on their jeans with fabric pens, then thought of a method of giving ordinary fashion aficionados the tools to create the garments of their dreams, starting off with a small pop-up where attendees would draw artworks and would compete with others for the shirt to be produced onto 30 tees, this was the humble beginnings of making Loud Prints. Since we have grown and worked with local charities, businesses and communities to let our beliefs and core values read and be clear in our vibrant designs. </p>
 </div>
 
 
